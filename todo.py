@@ -48,6 +48,7 @@ def send_static_file(filepath):
 
 @app.error(404)
 def error_404(error):
+    redirect('/')
     return 'Sorry, this page does not exist!'
 
 
