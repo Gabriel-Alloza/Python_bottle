@@ -5,7 +5,7 @@ from pathlib import Path
 
 app = Bottle()
 
-@app.route('/todo')
+@app.route('/')
 def todo_list():
     show  = request.query.show or 'open'
     match show:
