@@ -48,7 +48,7 @@ def send_static_file(filepath):
 
 @app.error(404)
 def error_404(error):
-    redirect('/todo')
+    return redirect('/todo')
 
 
 
