@@ -1,5 +1,5 @@
 import sqlite3
-from bottle import Bottle, template, request, static_file
+from bottle import Bottle, template, request, static_file, redirect
 from pathlib import Path
 
 
